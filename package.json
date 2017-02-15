@@ -1,0 +1,27 @@
+{
+  "name": "laravel-mix-concept-op",
+  "version": "1.0.0",
+  "description": "\"A better looking starting point that goes beyond the standard bootstrap 3 look...\"",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "dev": "node node_modules/cross-env/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules",
+    "watch": "node node_modules/cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hmr": "node node_modules/cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "node node_modules/cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "Gunharth Randolf",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.1",
+    "jquery-countto": "^1.2.0",
+    "jquery.easing": "^1.4.1",
+    "skrollr": "^0.6.26",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^0.7.5"
+  }
+}
