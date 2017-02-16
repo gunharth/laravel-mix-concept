@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gunharth/laravel-mix-concept.svg?branch=master)](https://travis-ci.org/gunharth/laravel-mix-concept)
+
 # Laravel Mix One-Page Starter Template
 
 "A better looking starting point that goes beyond the standard bootstrap 3 look..."
