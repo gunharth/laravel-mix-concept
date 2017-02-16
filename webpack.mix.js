@@ -11,21 +11,11 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.setPublicPath('public')
-   .sass('resources/assets/sass/styles.scss','public/css/styles.css')
-  	// .combine([
-   //      'node_modules/animate.css/animate.css'
-  	// 	], 'public/css/vendor.css')
-   //   .js('vendor.js','resources/assets/js/build/vendor.js')
-   //   .js([
-   //      'build/vendor.js',
-   //      './node_modules/jquery.easing/jquery.easing.js',
-   //      './node_modules/waypoints/lib/jquery.waypoints.js',
-   //      './node_modules/jquery-countto/jquery.countTo.js',
-   //      './node_modules/skrollr/src/skrollr.js'
-   //  	], 'public/js/vendor.js')
-     .js('resources/assets/js/site.js','public/js/site.js')
-     	.extract(['jquery', 'bootstrap-sass'])
+mix
+  .setPublicPath('public')
+  .sass('resources/assets/sass/styles.scss','public/css/styles.css')
+  .js('resources/assets/js/site.js','public/js/site.js')
+    .extract(['jquery', 'bootstrap-sass', 'waypoints', 'countTo', 'skrollr'])
     //  .browserSync({
     //     proxy: 'http://laravel-elixir-concept-op.dev'
     // })

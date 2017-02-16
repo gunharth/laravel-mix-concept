@@ -10,14 +10,14 @@ Preview of the original by [gettemplates.co](http://gettemplates.co/preview/?ite
 - updated JavaScript libraries
 - added waypoints.js navigation highlighting while scrolling
 - replaced stellar parallax with skrollr (smoother!)
-- third party libraries get combined into vendor.css and vendor.js
+- third party js libraries vendor.js
 
 ## To use and edit
 - clone or download repo
 - cd into dir
 - run yarn (or npm install)
 - make your sass or js changes in resources/assets
-- run gulp to publish all assets to the public folder
+- run 'npm run dev' to publish all assets to the public folder
 - check out the Laravel Mix docs https://laravel.com/docs/5.4/mix
 
 If your on a Mac, I highly recommend [Valet](https://laravel.com/docs/5.4/valet) for develoment.

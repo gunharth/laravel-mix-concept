@@ -200,7 +200,10 @@ module.exports.resolve = {
     extensions: ['*', '.js', '.jsx', '.vue'],
 
     alias: {
-        'vue$': 'vue/dist/vue.common.js'
+        'vue$': 'vue/dist/vue.common.js',
+        'waypoints': 'waypoints/lib/jquery.waypoints.js',
+        'countTo': 'jquery-countto/jquery.countTo.js',
+        'skrollr': 'skrollr/src/skrollr.js',
     }
 };
 

@@ -1,7 +1,9 @@
 window.$ = window.jQuery = require('jquery');
 
 require('bootstrap-sass');
-
+require('waypoints');
+require('countTo');
+let skrollr = require('skrollr');
 
 ;
 (function() {
@@ -249,7 +251,6 @@ require('bootstrap-sass');
 
     var parallax = function() {
         if (!isMobile.any()) {
-            //$(window).stellar();
             skrollr.init({
 				edgeStrategy: 'set',
 				easing: {
