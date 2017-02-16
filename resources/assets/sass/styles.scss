@@ -48,38 +48,6 @@
     -moz-flex-wrap: wrap; 
 }
 
-// @font-face {
-//     font-family: 'icomoon';
-//     src:url('../fonts/icomoon/icomoon.eot?srf3rx');
-//     src:url('../fonts/icomoon/icomoon.eot?srf3rx#iefix') format('embedded-opentype'),
-//         url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
-//         url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
-//         url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
-@mixin icomoon() {
-    
-    font-family: 'icomoon';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    
-}
-
-// Import 
-//@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
-//@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
-
-
 /* =======================================================
 *
 *   Template Style 
@@ -542,7 +510,6 @@ h1, h2, h3, h4, h5, h6, figure {
                 position: absolute;
                 left: 0;
                 top: .05em;
-                @include icomoon;
             }
             &.address {
                 &:before {
@@ -1384,7 +1351,6 @@ footer{
                     &:after {
                         position: absolute;
                         right: 0px;
-                        @include icomoon;
                         content: "\e921";
                         font-size: 20px;
                         color: rgba(255,255,255,.2);
