@@ -1,12 +1,18 @@
 webpackJsonp([1,2],[
 /* 0 */,
 /* 1 */,
-/* 2 */
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_provided_window_dot_jQuery, $) {window.$ = __webpack_provided_window_dot_jQuery = __webpack_require__(0);
 
 __webpack_require__(1);
+__webpack_require__(4);
+__webpack_require__(2);
+var skrollr = __webpack_require__(3);
 
 ;
 (function () {
@@ -215,7 +221,6 @@ __webpack_require__(1);
 
     var parallax = function parallax() {
         if (!isMobile.any()) {
-            //$(window).stellar();
             skrollr.init({
                 edgeStrategy: 'set',
                 easing: {
@@ -329,18 +334,18 @@ __webpack_require__(1);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0), __webpack_require__(0)))
 
 /***/ }),
-/* 3 */
+/* 6 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 4 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(2);
-module.exports = __webpack_require__(3);
+__webpack_require__(5);
+module.exports = __webpack_require__(6);
 
 
 /***/ })
-],[4]);
+],[7]);
