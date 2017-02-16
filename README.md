@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gunharth/laravel-mix-concept.svg?branch=master)](https://travis-ci.org/gunharth/laravel-mix-concept)
+[![Build Status](https://travis-ci.org/gunharth/laravel-mix-concept-op.svg?branch=master)](https://travis-ci.org/gunharth/laravel-mix-concept-op)
 
 # Laravel Mix One-Page Starter Template
 
