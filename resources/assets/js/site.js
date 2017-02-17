@@ -3,6 +3,7 @@ window.$ = window.jQuery = require('jquery');
 require('bootstrap-sass');
 require('waypoints');
 require('countTo');
+require('jquery.easing');
 let skrollr = require('skrollr');
 
 ;
