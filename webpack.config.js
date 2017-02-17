@@ -124,7 +124,7 @@ module.exports.module = {
             loader: 'file-loader',
             options: {
                 name: 'images/[name].[ext]?[hash]',
-                publicPath: '/'
+                publicPath: '../'
             }
         },
 
